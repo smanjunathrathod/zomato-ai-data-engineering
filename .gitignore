@@ -1,0 +1,35 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Airflow
+airflow/logs/
+logs/
+airflow/__pycache__/
+
+# dbt
+target/
+dbt_packages/
+logs/
+*.log
+profiles.yml
+
+# Local data
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
